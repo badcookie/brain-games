@@ -1,8 +1,7 @@
 {
   "name": "glorious-brain-game",
   "version": "1.0.2",
-  "description": "",
-  "main": "",
+  "description": "A small set of console games",
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
   },
@@ -18,8 +17,12 @@
     "type": "git",
     "url": "git+https://github.com/badcookie/project-lvl1-s392.git"
   },
-  "author": "",
-  "license": "",
+  "author": "Polina Novokreschenova",
+  "license": "ISC",
+  "keywords": [
+    "games",
+    "hexlet"
+  ],
   "bugs": {
     "url": "https://github.com/badcookie/project-lvl1-s392/issues"
   },
