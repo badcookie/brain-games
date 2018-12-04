@@ -5,5 +5,5 @@ export default () => {
   const userName = readlineSync.question('May I have your name? ', {
     defaultInput: 'anonymous',
   });
-  return `Hello, ${userName}!`;
+  console.log(`Hello, ${userName}!`);
 };
