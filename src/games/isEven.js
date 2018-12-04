@@ -1,12 +1,14 @@
 import readlineSync from 'readline-sync';
+import greetings from '..';
 
+const isEven = num => num % 2 === 0;
 const getRandomNumber = max => Math.floor(Math.random() * max);
 const maxRandomNumber = 40;
 const triesCount = 3;
+const user = greetings();
 
-export default (user) => {
+export default () => {
   console.log('Answer "yes" if number is even, otherwise answer "no".\n');
-  const isEven = num => num % 2 === 0;
 
   const run = (count) => {
     if (count === 0) {
@@ -14,10 +16,10 @@ export default (user) => {
       return;
     }
 
-    const randomNumber = getRandomNumber(maxRandomNumber);
-    const trueAnswer = isEven(randomNumber) ? 'yes' : 'no';
+    const question = getRandomNumber(maxRandomNumber);
+    const trueAnswer = isEven(question) ? 'yes' : 'no';
 
-    console.log('Question: ', randomNumber);
+    console.log('Question: ', question);
     const userAnswer = readlineSync.question('Your answer: ');
 
     if (userAnswer !== trueAnswer) {

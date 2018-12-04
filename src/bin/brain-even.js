@@ -1,6 +1,4 @@
 #!/usr/bin/env node
-import greetings from '..';
-import game from '../evenGame';
+import game from '../games/isEven';
 
-const user = greetings();
-game(user);
+game();
