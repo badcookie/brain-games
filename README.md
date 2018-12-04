@@ -1,6 +1,5 @@
 ## glorious-brain-game
 A small set of console games.
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/ae70c27844226563cb9c/maintainability)](https://codeclimate.com/github/badcookie/hexlet-brain-games/maintainability)
 [![Build Status](https://travis-ci.com/badcookie/hexlet-brain-games.svg?branch=master)](https://travis-ci.com/badcookie/hexlet-brain-games)
