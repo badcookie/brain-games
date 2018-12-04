@@ -6,4 +6,5 @@ export default () => {
     defaultInput: 'anonymous',
   });
   console.log(`Hello, ${userName}!`);
+  return userName;
 };
