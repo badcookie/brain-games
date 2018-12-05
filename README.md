@@ -14,3 +14,6 @@ A small set of console games.
 
 ### Calculator
 [![asciicast](https://asciinema.org/a/96gXmyOSC7a8sprWbKimcBRI2.svg)](https://asciinema.org/a/96gXmyOSC7a8sprWbKimcBRI2)
+
+### Find the greatest common divisor
+[![asciicast](https://asciinema.org/a/fEtQk4V57CbsgNkSBjamYS3Lt.svg)](https://asciinema.org/a/fEtQk4V57CbsgNkSBjamYS3Lt)
