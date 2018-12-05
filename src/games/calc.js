@@ -1,15 +1,13 @@
 import run from '..';
 import { cons } from 'hexlet-pairs';
+import { getRandomNumber, maxRandomNumber } from '../utils';
 
 const gameDescription = 'What is the result of the expression?';
 
-const maxRandomNumber = 40;
-const getRandomNumber = max => Math.floor(Math.random() * max);
+const operators = '+-*';
 
 const getQuestionAndTrueAnswer = () => {
-  const operators = '+-*';
   const randomOperator = operators.charAt(getRandomNumber(operators.length));
-
   const x = getRandomNumber(maxRandomNumber);
   const y = getRandomNumber(maxRandomNumber);
   const question = `${x} ${randomOperator} ${y}`;

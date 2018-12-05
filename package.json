@@ -1,6 +1,6 @@
 {
   "name": "glorious-brain-game",
-  "version": "1.3.0",
+  "version": "1.3.2",
   "description": "A small set of console games",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
