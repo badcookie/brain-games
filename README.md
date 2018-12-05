@@ -17,3 +17,6 @@ A small set of console games.
 
 ### Find the greatest common divisor
 [![asciicast](https://asciinema.org/a/fEtQk4V57CbsgNkSBjamYS3Lt.svg)](https://asciinema.org/a/fEtQk4V57CbsgNkSBjamYS3Lt)
+
+### Arithmetic progression
+[![asciicast](https://asciinema.org/a/ui94gK7ShRFHHWyH0FOQf7wPV.svg)](https://asciinema.org/a/ui94gK7ShRFHHWyH0FOQf7wPV)
