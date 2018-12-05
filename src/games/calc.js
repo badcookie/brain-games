@@ -12,7 +12,7 @@ const getQuestionAndTrueAnswer = () => {
 
   const x = getRandomNumber(maxRandomNumber);
   const y = getRandomNumber(maxRandomNumber);
-  const randomExpression = `${x} ${randomOperator} ${y}`;
+  const question = `${x} ${randomOperator} ${y}`;
 
   let trueAnswer = 0;
   switch (randomOperator) {
@@ -29,7 +29,7 @@ const getQuestionAndTrueAnswer = () => {
       break;
   }
 
-  return cons(randomExpression, `${trueAnswer}`);
+  return cons(question, `${trueAnswer}`);
 };
 
 export default () => run(gameDescription, getQuestionAndTrueAnswer);
