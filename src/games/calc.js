@@ -1,37 +1,35 @@
 import run from '..';
+import { cons } from 'hexlet-pairs';
 
 const gameDescription = 'What is the result of the expression?';
 
 const maxRandomNumber = 40;
 const getRandomNumber = max => Math.floor(Math.random() * max);
 
-const getRandomExpression = () => {
+const getQuestionAndTrueAnswer = () => {
   const operators = '+-*';
   const randomOperator = operators.charAt(getRandomNumber(operators.length));
+
   const x = getRandomNumber(maxRandomNumber);
   const y = getRandomNumber(maxRandomNumber);
-  return `${x} ${randomOperator} ${y}`;
-};
+  const randomExpression = `${x} ${randomOperator} ${y}`;
 
-const getAnswer = (question) => {
-  const [num1, operator, num2] = question.split(' ');
-  const x = parseInt(num1, 10);
-  const y = parseInt(num2, 10);
-  let result = 0;
-  switch (operator) {
+  let trueAnswer = 0;
+  switch (randomOperator) {
     case '+':
-      result = x + y;
+      trueAnswer = x + y;
       break;
     case '-':
-      result = x - y;
+      trueAnswer = x - y;
       break;
     case '*':
-      result = x * y;
+      trueAnswer = x * y;
       break;
     default:
       break;
   }
-  return `${result}`;
+
+  return cons(randomExpression, `${trueAnswer}`);
 };
 
-export default () => run(gameDescription, getRandomExpression, getAnswer);
+export default () => run(gameDescription, getQuestionAndTrueAnswer);
