@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
 import { car, cdr } from 'hexlet-pairs';
 
-export const greetings = () => {
+const greetings = () => {
   console.log('Welcome to the Brain Games!\n');
   const userName = readlineSync.question('May I have your name? ', {
     defaultInput: 'anonymous',
