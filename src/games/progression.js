@@ -10,27 +10,23 @@ const minPosition = 1;
 const minStep = 2;
 
 const getQuestionAndTrueAnswer = () => {
-  const firstNumberInProgression = getRandomNumber(maxRandomNumber);
+  const firstElement = getRandomNumber(maxRandomNumber);
   const step = getRandomNumber(maxRandomNumber, minStep);
-  const randomEmptyPosition = getRandomNumber(maxRandomNumber, minPosition);
-  let trueAnswer = 0;
+  const hiddenElementPosition = getRandomNumber(progressionLength + 1, minPosition);
+  const trueAnswer = firstElement + step * (hiddenElementPosition - 1);
 
-  const getProgression = (position, previousNumber, result) => {
-    if (position === progressionLength) {
+  const getProgression = (position, currentNumber, result) => {
+    if (position > progressionLength) {
       return result;
     }
 
-    const newNumber = previousNumber + step;
-    if (position === randomEmptyPosition) {
-      trueAnswer = newNumber;
-      return getProgression(position + 1, newNumber, `${result} ..`);
-    }
-    return getProgression(position + 1, newNumber, `${result} ${newNumber}`);
+    const currentElement = position === hiddenElementPosition
+      ? '..' : currentNumber;
+    const nextNumber = currentNumber + step;
+    return getProgression(position + 1, nextNumber, `${result} ${currentElement}`);
   };
 
-  const question = getProgression(
-    minPosition, firstNumberInProgression, `${firstNumberInProgression}`,
-  );
+  const question = getProgression(minPosition, firstElement, '');
   return cons(question, `${trueAnswer}`);
 };
 
