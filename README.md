@@ -1,11 +1,11 @@
-# glorious-brain-game
+# Brain Games
 A small set of console games.
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/ae70c27844226563cb9c/maintainability)](https://codeclimate.com/github/badcookie/hexlet-brain-games/maintainability)
 [![Build Status](https://travis-ci.com/badcookie/hexlet-brain-games.svg?branch=master)](https://travis-ci.com/badcookie/hexlet-brain-games)
 
 ## Install
-[![asciicast](https://asciinema.org/a/UyRIhLFlyjsPLwbOiXDa12KtS.svg)](https://asciinema.org/a/UyRIhLFlyjsPLwbOiXDa12KtS)
+[![asciicast](https://asciinema.org/a/9FLY9jlDHw8aD3Nbj4AiWQS3t.svg)](https://asciinema.org/a/9FLY9jlDHw8aD3Nbj4AiWQS3t)
 
 ## Games
 
@@ -20,3 +20,6 @@ A small set of console games.
 
 ### Arithmetic progression
 [![asciicast](https://asciinema.org/a/ui94gK7ShRFHHWyH0FOQf7wPV.svg)](https://asciinema.org/a/ui94gK7ShRFHHWyH0FOQf7wPV)
+
+### Check primality
+[![asciicast](https://asciinema.org/a/v1braBrbrA1EHqEJjfl89wxmc.svg)](https://asciinema.org/a/v1braBrbrA1EHqEJjfl89wxmc)
