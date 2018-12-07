@@ -5,7 +5,7 @@ A small set of console games.
 [![Build Status](https://travis-ci.com/badcookie/hexlet-brain-games.svg?branch=master)](https://travis-ci.com/badcookie/hexlet-brain-games)
 
 ## Install
-[![asciicast](https://asciinema.org/a/9FLY9jlDHw8aD3Nbj4AiWQS3t.svg)](https://asciinema.org/a/9FLY9jlDHw8aD3Nbj4AiWQS3t)
+[![asciicast](https://asciinema.org/a/sU8HHWkJaZehMans1aVYr8Kti.svg)](https://asciinema.org/a/sU8HHWkJaZehMans1aVYr8Kti)
 
 ## Games
 
