@@ -1,6 +1,6 @@
 {
   "name": "glorious-brain-game",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "A small set of console games",
   "bin": {
     "brain-even": "dist/bin/brain-even.js",

@@ -5,6 +5,11 @@ import getRandomNumber from '../utils';
 const gameDescription = 'What is the result of the expression?';
 
 const operators = '+-*';
+const actions = {
+  '+': (a, b) => a + b,
+  '-': (a, b) => a - b,
+  '*': (a, b) => a * b,
+};
 
 const maxRandomNumber = 40;
 
@@ -13,22 +18,7 @@ const getQuestionAndTrueAnswer = () => {
   const x = getRandomNumber(maxRandomNumber);
   const y = getRandomNumber(maxRandomNumber);
   const question = `${x} ${randomOperator} ${y}`;
-
-  let trueAnswer = 0;
-  switch (randomOperator) {
-    case '+':
-      trueAnswer = x + y;
-      break;
-    case '-':
-      trueAnswer = x - y;
-      break;
-    case '*':
-      trueAnswer = x * y;
-      break;
-    default:
-      break;
-  }
-
+  const trueAnswer = actions[randomOperator](x, y);
   return cons(question, `${trueAnswer}`);
 };
 
