@@ -2,7 +2,7 @@
 A small set of console games.
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/ae70c27844226563cb9c/maintainability)](https://codeclimate.com/github/badcookie/hexlet-brain-games/maintainability)
-[![Build Status](https://travis-ci.com/badcookie/hexlet-brain-games.svg?branch=master)](https://travis-ci.com/badcookie/hexlet-brain-games)
+[![Build Status](https://travis-ci.org/badcookie/brain-games.svg?branch=master)](https://travis-ci.org/badcookie/brain-games)
 
 ## Install
 [![asciicast](https://asciinema.org/a/sU8HHWkJaZehMans1aVYr8Kti.svg)](https://asciinema.org/a/sU8HHWkJaZehMans1aVYr8Kti)
